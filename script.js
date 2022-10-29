@@ -29,9 +29,9 @@ function user(fName, lName, age) {
 }
 
 function user() {
-    let fName = prompt("Your First Name is");
-    let lName = prompt("Your Last Name is");
-    let age = prompt("Your Age is");
+    let fName = prompt("Enter Your First Name");
+    let lName = prompt("Enter Your Last Name");
+    let age = prompt("Enter Your Age");
     alert(`Your First Name is: ${fName}  \nYour Last Name is: ${lName} \nYou Are: ${age} years old`);
 };
 
